@@ -1,0 +1,51 @@
+body {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+
+.item {
+    position: relative;
+    cursor: pointer;
+}
+
+.img-caption {
+    text-align: center;
+    background-color: #ffff;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    bottom: 30px;
+    padding: 4px;
+}
+
+
+.light-box-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.light-box-item {
+    width: 50%;
+    height: 500px;
+    background-image: url(Images/1.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.light-box-item i {
+    font-size: 1.2rem;
+    /* 1rem ===> 16px */
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+#close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
